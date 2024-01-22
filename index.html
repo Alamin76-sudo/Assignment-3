@@ -26,14 +26,178 @@
         font-family: 'Manrope', sans-serif;
     }
 </style>
+
 </head>
 
 <body class="font-manrope">
-    <header>
-<h1>halloween</h1>
-    </header>
-    <main>
+    <header class="container mx-auto md:relative mb-20">
+        <!-- Nav Section -->
 
+        <div class="navbar bg-base-100 my-12">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a class="text-[#FF4240] font-bold">Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                  
+                  
+
+                </ul>
+              </div>
+              
+              <h1 class="text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">'</span>s</h1>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="text-[#FF4240] font-bold">Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+                <i class="fa-solid fa-magnifying-glass hidden md:inline-block text-gray-400 mr-5"></i>
+              <a class="btn btn  font-bold bg-[#FF4240] text-white">Get Ticket</a>
+            </div>
+          </div>
+
+
+        <!-- Banner Section -->
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-1/2 left-[40%] right-[40%] md:left-5 md:right-5 bottom-10">
+                <a href="#slide3" class="btn btn-circle btn-neutral">❮</a> 
+                <a href="#slide2" class="btn btn-circle btn-neutral absolute left-14">❯</a>
+              </div>
+              
+              
+            </div> 
+            
+
+
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-1/2 left-[40%] right-[40%] md:left-5 md:right-5 bottom-10">
+                <a href="#slide1" class="btn btn-circle btn-neutral">❮</a> 
+                <a href="#slide3" class="btn btn-circle btn-neutral absolute left-14">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-1/2 left-[40%] right-[40%] md:left-5 md:right-5 bottom-10">
+                <a href="#slide2" class="btn btn-circle btn-neutral">❮</a> 
+                <a href="#slide1" class="btn btn-circle btn-neutral absolute left-14">❯</a>
+              </div>
+            </div> 
+            
+          </div>
+
+          <!-- Hero Badge -->
+          <div class="bg-[#131318;] text-white p-6 max-w-lg rounded-lg space-y-3 md:absolute md:right-10 md:bottom-10">
+            <h2 class="text-2xl font-extrabold">Meet all the heroes from the field</h2>
+            <p>With ten men’s teams, six ladies teams, a mixed side, a range of youth teams, various touring sides and Back to Hockey sessions.</p>
+          </div>
+
+
+    </header>
+    <main class="container mx-auto md:relative mb-20">
+        <!-- Professional Progress -->
+        <section>
+            <hr class="border-dashed">
+            <div class="text-center m-10 space-y-4">
+                <h1 class="text-4xl font-extrabold">Professional Hockeys Club</h1>
+                <p>Working Hockey Club has 10 adult men's teams playing in competitive leagues. The <br> section encourages juniors to play adult hockey when they are ready. </p>
+            </div>
+            <hr class="border-dashed">
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10 m-10">
+                <!-- first progress bar -->
+                <div class="text-center space-y-4">
+                    <div class="radial-progress text-red-600" style="--value:87;" role="progressbar">87%</div>
+                    <h2 class="text-xl font-semibold">Prayer Facility</h2>
+                    <p>High quality coaching programme ensures.</p>
+                </div>
+
+                <!-- second progress bar -->
+                <div class="text-center space-y-4">
+                    <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
+                    <h2 class="text-xl font-semibold">Experienced Coach</h2>
+                    <p>Weekly training sessions run by coaches are available for those who are looking to get back into hockey.</p>
+                </div>
+
+                <!-- third progress bar -->
+                <div class="text-center space-y-4">
+                    <div class="radial-progress text-amber-500" style="--value:90;" role="progressbar">90%</div>
+                    <h2 class="text-xl font-semibold">Training Ground</h2>
+                    <p>The section has a three tier Vets Hockey structure which offers weekly competitive games.</p>
+                </div>
+
+                <!-- fourth progress bar -->
+                <div class="text-center space-y-4">
+                    <div class="radial-progress text-cyan-500" style="--value:80;" role="progressbar">80%</div>
+                    <h2 class="text-xl font-semibold">Training Ground</h2>
+                    <p>After match socials are a big part of playing hockey whichever team you play.</p>
+                </div>
+            </div>
+        </section>
+
+<!-- Program Sections -->
+        <section>
+            <hr class="border-dashed">
+            <div class="text-center m-10 space-y-4">
+                <h1 class="text-4xl font-extrabold">Program Sections</h1>
+                <p>After match socials are a big part of playing hockey whichever team you play for, and <br> our on-site clubhouse provides the perfect place for these. </p>
+            </div>
+            <hr class="border-dashed">
+
+
+            <div class="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-10 mt-10">
+
+                <div class="hero rounded-xl h-96" style="background-image: url(Images/2.png);">
+                    <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
+                    <div class="hero-content text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mb-5 text-3xl font-bold">Hello there</h1>
+                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn  font-bold bg-[#FF4240] text-white border-none">Register Now!</button>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="hero rounded-xl h-96" style="background-image: url(Images/3.png);">
+                    <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
+                    <div class="hero-content text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mb-5 text-3xl font-bold">Hello there</h1>
+                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn  font-bold bg-[#FF4240] text-white border-none">Register Now!</button>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <div class="hero col-span-1 md:col-span-2 rounded-xl h-96" style="background-image: url(Images/4.png);">
+                    <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
+                    <div class="hero-content text-neutral-content">
+                      <div class="absolute md:bottom-14 md:left-14">
+                        <h1 class="mb-5 text-3xl font-bold">Hello there</h1>
+                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat <br>ut assumenda excepturi exercitationem quasi. <br>In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn font-bold bg-[#FF4240] text-white border-none">Register Now!</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
     </main>
     <footer>
 
