@@ -449,84 +449,88 @@
             </div>
             <hr class="border-dashed">
 
-
-            <div class="md:flex gap-6 my-20">
-              <div class="space-y-5 border-solid border-2 border-gray-200 rounded-lg p-10 md:w-[40%]">
-                <div class="bg-[#bced6d1a] space-y-4 p-6 rounded-lg">
-                  <img src="Images/Group 1171275317.png" alt="">
-                  <p>Phone Number</p>
-                  <h4 class="text-lg font-extrabold">(+62)123-321-543</h4>
-                </div>
-
-                <div class="bg-[#fddd5f1a] space-y-4 p-6 rounded-lg">
-                  <img src="Images/Group 1171275318.png" alt="">
-                  <p>Email</p>
-                  <h4 class="text-lg font-extrabold">hockeys@support.com</h4>
-                </div>
-
-                <div class="bg-[#629cf31a] space-y-4 p-6 rounded-lg">
-                  <img src="Images/Group 1171275321.png" alt="">
-                  <p>Location</p>
-                  <h4 class="text-lg font-extrabold">152/1 Mohakhali Wireless Gate</h4>
-                </div>
-
-
-              </div>
-
-              <!-- form part -->
-              <div class="md:w-[60%] grid grid-cols-1 lg:grid-cols-2 p-5">
-
-
-                
-                    <label for="">
-                      <span class=" text-xl font-bold">Your Name</span>
-                  <input type="text" placeholder="Enter Your full Name" class="input input-bordered w-full max-w-xs bg-slate-100 border-none" />
-                    </label>
-                
-
-                    <label for="">
-                      <span class="text-xl font-bold">Your Email</span>
-                      <input type="text" placeholder="Enter Your Email" class="input input-bordered w-full max-w-xs bg-slate-100 border-none" />
-                    </label>
-                
-                  
-                   <label for="">
-                    <span class="text-xl font-bold">Subject</span><br>
-                  <input type="text" placeholder="Enter Your Subject" class="input input-bordered w-full max-w-xs bg-slate-100 border-none" />
-                   </label>
-                
-
-                   <label for="">
-                    <span class="text-xl font-bold">Phone Number</span><br>
-                  <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full max-w-xs bg-slate-100 border-none" />
-                   </label>
-
-               
-            
-                
-                
-                <!-- <label class="form-control w-full max-w-xs">
-                  <div class="label">
-                    <span class="label-text">What is your name?</span>
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div class="">
+                <div class="space-y-5 border-solid border-2 border-gray-200 rounded-lg p-10">
+                  <div class="bg-[#bced6d1a] space-y-4 p-6 rounded-lg">
+                    <img src="Images/Group 1171275317.png" alt="">
+                    <p>Phone Number</p>
+                    <h4 class="text-lg font-extrabold">(+62)123-321-543</h4>
                   </div>
-                  <textarea rows="10" class=" " placeholder="Bio"></textarea>
-                </label> -->
-                
-                <Span class="text-xl font-bold">Message</Span><br>
-                <textarea id="message" rows="10" class="block p-2.5 w-full col-span-2 textarea textarea-bordered bg-slate-100 border-none" placeholder="Message..."></textarea>
-
-                &ThinSpace;
-                <button class="btn font-bold bg-[#FF4240] text-white border-none col-span-2">Send Message</button>
-
-                
-
+  
+                  <div class="bg-[#fddd5f1a] space-y-4 p-6 rounded-lg">
+                    <img src="Images/Group 1171275318.png" alt="">
+                    <p>Email</p>
+                    <h4 class="text-lg font-extrabold">hockeys@support.com</h4>
+                  </div>
+  
+                  <div class="bg-[#629cf31a] space-y-4 p-6 rounded-lg">
+                    <img src="Images/Group 1171275321.png" alt="">
+                    <p>Location</p>
+                    <h4 class="text-lg font-extrabold">152/1 Mohakhali Wireless Gate</h4>
+                  </div>
+  
+  
+                </div>
               </div>
+              <div class="lg:col-span-2">
+                <div class="grid gap-6 grid-cols-1 lg:grid-cols-2">
+
+                  <div>
+                    <label class=" text-xl font-bold" for="">
+                      Your Name
+                    </label>
+                  <input type="text" placeholder="Enter Your full Name" class="input input-bordered w-full bg-slate-100 border-none" />
+                  </div>
+                  
               
+
+                 <div>
+                  <label class="text-xl font-bold" for="">
+                    Your Email
+                  </label>
+                    <input type="text" placeholder="Enter Your Email" class="input input-bordered w-full bg-slate-100 border-none" />
+                 </div>
+                  
+              
+                
+                <div>
+                  <label class="text-xl font-bold" for="">
+                    Subject
+                    </label>
+                  <input type="text" placeholder="Enter Your Subject" class="input input-bordered w-full bg-slate-100 border-none" />
+                </div>
+                 
+              
+
+                 <div>
+                  <label class="text-xl font-bold" for="">
+                    Phone Number
+                  </label>
+                  <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full bg-slate-100 border-none" />
+                 </div>
+              
+              
+                </div>
+
+                <div class="mt-4">
+                  <label class="text-xl font-bold" for="">Message</label>
+                <textarea id="message" rows="10" class="block p-2.5 w-full textarea textarea-bordered bg-slate-100 border-none" placeholder="Message..."></textarea>
+                </div>
+  
+              
+                <input class="btn font-bold bg-[#FF4240] text-white border-none mt-5" type="button" value="Send Message">
+              
+                <!-- <button class="btn font-bold bg-[#FF4240] text-white border-none mt-5">Send Message</button> -->
+                
+                
+              </div>
             </div>
-        </section>
 
+          
 
-        <section class="bg-[#13131808] py-8 text-center space-y-4 rounded-lg">
+<!-- Social section -->
+        <section class="bg-[#13131808] py-8 text-center space-y-4 rounded-lg mt-10">
           <h2 class="text-2xl font-extrabold">Social Media</h2>
           <div class="space-x-4 text-xl">
 
